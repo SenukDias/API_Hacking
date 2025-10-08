@@ -15,13 +15,22 @@ tar -xzf Postman-linux-x64*.tar.gz
 sudo mv Postman /opt/Postman
 ```
 
-- 4. 
+- 4. Create Link to local folder
 ```bash
 sudo ln -sf /opt/Postman/Postman /usr/local/bin/postman
 
 
  ```
- - 5.
+ - 5. Run postman using Terminal
  ```bash
 postman
  ```
+
+ ---
+ ## Mitmproxy2swagger Installation
+
+ ```bash
+
+└─$ cd /opt
+└─$ sudo pip3 install mitmproxy2swagger
+```
